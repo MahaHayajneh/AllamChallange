@@ -1,23 +1,21 @@
-Mujid Application
-Mujid is an innovative Streamlit application that leverages state-of-the-art AI models from IBM Watson, OpenAI, and Google Cloud Speech to process Arabic text and audio. This tool is tailored for Arabic language enthusiasts, providing features like audio recording, text recognition, text-to-speech conversion, and diacritization.
+# Mujid Application
 
-Core Features
-Multimodal Input: Supports both voice and text inputs for flexibility and ease of use.
+**Mujid** is an innovative Streamlit application that leverages state-of-the-art AI models from **IBM Watson**, **OpenAI**, and **Google Cloud Speech** to process Arabic text and audio. This tool is tailored for Arabic language enthusiasts, providing features like audio recording, text recognition, text-to-speech conversion, and diacritization.
 
-Speech-to-Text: Converts spoken Arabic into written text using Google Cloud's Speech-to-Text API.
+---
 
-Arabic Text Diacritization: Adds diacritical marks to Arabic text for improved clarity and pronunciation using IBM Watson AI.
+## Core Features
+- **Multimodal Input**: Supports both voice and text inputs for flexibility and ease of use.
+- **Speech-to-Text**: Converts spoken Arabic into written text using Google Cloud's Speech-to-Text API.
+- **Arabic Text Diacritization**: Adds diacritical marks to Arabic text for improved clarity and pronunciation using IBM Watson AI.
+- **Text-to-Speech**: Converts processed Arabic text into audio using OpenAI models.
+- **Enhanced Interface**: Offers a dynamic user experience with customizable backgrounds and component styling.
 
-Text-to-Speech: Converts processed Arabic text into audio using OpenAI models.
+---
 
-Enhanced Interface: Offers a dynamic user experience with customizable backgrounds and component styling.
-
-Installation
+## Installation
 Clone the repository and install the required dependencies:
-
-bash
-Copy
-Edit
+```bash
 pip install streamlit ibm-watson openai google-cloud-speech soundfile audio_recorder_streamlit python-dotenv
 Setup
 Before running the application, ensure the following steps are completed:
@@ -42,9 +40,7 @@ IBM_WATSONX_API_KEY=YOUR_IBM_API_KEY
 GOOGLE_CLOUD_SPEECH_API_KEY=YOUR_GOOGLE_CLOUD_API_KEY  
 USER_ACCESS_TOKEN=YOUR_ACCESS_TOKEN  
 How to Run
-Navigate to the project directory.
-
-Run the following command:
+Navigate to the project directory and run the following command:
 
 bash
 Copy
