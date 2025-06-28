@@ -1,0 +1,7 @@
+streamlit
+google-cloud-speech
+soundfile
+audio-recorder-streamlit
+python-dotenv
+openai
+ibm-watsonx-ai
